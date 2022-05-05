@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+completed_demo = "72vXkukqKsAVxaVD6yS4bKw27qi5ugVnkFZdHyCAEjRk"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/justinlee/.config/solana/devnet.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
